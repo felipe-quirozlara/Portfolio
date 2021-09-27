@@ -1,0 +1,12 @@
+.footer{
+    background-color: #1E6091;
+    width: auto;
+    height: 300px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        height: 150px;
+        width: auto;
+    }
+}

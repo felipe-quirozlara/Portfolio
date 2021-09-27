@@ -1,0 +1,26 @@
+.tarjeta{
+    background-color: #8BBFF6;
+    padding: 2%;
+    margin: 1%;
+
+}
+
+.col>h1{
+    font-size: 54px;
+    color: #313131;
+}
+.col>p{
+    padding: 4% 3% 2%;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 768px) {
+    .col>h1{
+        font-size: x-large;
+        padding-left: 2%;
+    }
+    .tarjeta{
+        padding: 4%;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,40 @@
+.center{
+    justify-content: center;
+}
+
+.evenly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card{
+    max-width: 90%;
+    text-align: center;
+    background-color: #AEE1FF;
+    border-radius: 5px;
+    padding: 30px 15px 30px;
+    margin: 2%;
+}
+.card > h2{
+    font-size: 48px;
+}
+
+.thum{
+    width: 100px;
+    height: auto;
+}
+
+.li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .evenly{
+        flex-direction: column;
+    }
+}

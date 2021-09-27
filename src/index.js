@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import AcercaDeMi from './components/Acercademi/acercademi';
+import Contacto from './components/contacto/contacto';
+import Habilidades from './components/habilidades/habilidades';
+import Header from './components/header';
+import Hero from './components/hero/hero';
+import Trabajos from './components/trabajos/trabajos';
+import Footer from './components/footer/footer';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header />
+    <Hero />
+    <AcercaDeMi />
+    <Habilidades />
+    <Trabajos />
+    <Contacto />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
