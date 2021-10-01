@@ -6,13 +6,13 @@ import backend from '../icons/backend.svg';
 
 const Habilidades = () => {
     return (
-        <div className="container col ">
-            <div className="row center ">
+        <div className="container col " >
+            <div className="row center " data-aos="fade-up">
                 <img src={habilIcon} className="icono"/>
                 <h1 className="titulo">Habilidades</h1>
             </div>
             <div className="evenly ">
-                <div className=" card ">
+                <div className=" card " data-aos="fade-left">
                     <img src={frontend} className="thum"/>
                     <h2 >Frontend</h2>
                     <hr/>
@@ -24,7 +24,7 @@ const Habilidades = () => {
                     <p className="li">Git</p>
 
                 </div>
-                <div className=" card ">
+                <div className=" card " data-aos="fade-right" >
                     <img src={backend} className="thum"/>
                     <h2 >Backend</h2>
                     <hr/>

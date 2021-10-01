@@ -4,7 +4,7 @@ import './formulario.css'
 
 const Contacto = () => {
     return (
-        <div className="container col">
+        <div className="container col" data-aos="fade-up">
             <div className="row center">
                 <img src={contacto} className="icono"/>
                 <h1 className="titulo">Contacto</h1>

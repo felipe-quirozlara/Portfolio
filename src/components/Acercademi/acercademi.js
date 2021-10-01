@@ -1,14 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './acercademi.css';
 import brain from '../icons/brain.svg'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AcercaDeMi = () => {
 
-
+    useEffect(() => {
+        AOS.init({
+            duration:2000,
+        });
+        AOS.refresh();
+      }, []);
+    // Aos effecto visuales
 
     return (
-        <div className="container reverse">
-            <div className="col">
+        <div className="container reverse"  >
+            <div className="col" data-aos="fade-up">
                 <div className="pad">
                     <div className="row">
                         <img src={brain} className="icono"/>
@@ -22,7 +30,7 @@ const AcercaDeMi = () => {
                     </div>
                 </div>
             </div>
-            <div className="col">
+            <div className="col" data-aos="fade-left">
                 <img src="https://via.placeholder.com/450x450" />
             </div>
         </div>
