@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import AcercaDeMi from './components/Acercademi/acercademi';
 import Contacto from './components/contacto/contacto';
 import Habilidades from './components/habilidades/habilidades';
-import Header from './components/header';
+import Header from './components/header/header';
 import Hero from './components/hero/hero';
 import Trabajos from './components/trabajos/trabajos';
 import Footer from './components/footer/footer';
-import './index.css';
+import './styles/base.css';
+import './styles/layout.css';
+
 
 
 ReactDOM.render(

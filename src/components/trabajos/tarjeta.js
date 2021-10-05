@@ -6,7 +6,7 @@ const Tarjeta = (props) => {
     const { nombre, imagen, resumen} = props
 
     return (
-        <div className="tarjeta row" data-aos="fade-right">
+        <div className="tarjeta " data-aos="fade-right">
             <div className="col">
                 <h1>{nombre}</h1>
                 <p>{resumen}</p>

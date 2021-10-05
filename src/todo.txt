@@ -1,5 +1,6 @@
--navbar
--contacto firebase
 -footer
--texto real
--Trabajos
+
+-Fotos reales
+-Cv
+-test
+-babel

@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import './acercademi.css';
 import brain from '../icons/brain.svg'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import cv from '../../data/docume.pdf';
 
 const AcercaDeMi = () => {
 
@@ -15,7 +15,7 @@ const AcercaDeMi = () => {
     // Aos effecto visuales
 
     return (
-        <div className="container reverse"  >
+        <div className="container reverse"  id="acercademi">
             <div className="col" data-aos="fade-up">
                 <div className="pad">
                     <div className="row">
@@ -23,10 +23,10 @@ const AcercaDeMi = () => {
                         <h1 className="titulo">Acerca de mi</h1>
                     </div>
                     <p className="parr">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum in ex sed sollicitudin. Praesent arcu risus, ullamcorper eu ipsum ac, porta vehicula orci. Donec vulputate ornare felis, ac pulvinar risus posuere eget. Praesent arcu risus, ullamcorper eu ipsum ac, porta vehicula orci. Donec vulputate ornare felis, ac pulvinar risus posuere eget.
+                        Hola!, soy Analista programador computacional. Apasionado por la tecnología y los gadgets. Me gusta el desarrollo backend y frontend en lenguajes como <b>Javascript</b>, <b>Python</b> entre otros. Me gusta aprender y obtener consejos de personas más experimentas. Soy alguien carismático y amable, preparado para aportar en grupos de trabajo.
                     </p>
                     <div className="col" id="cv">
-                        <a href="https://www.google.cl" className="button">Descargar CV</a>
+                        <a href={cv} className="button" download>Descargar CV</a>
                     </div>
                 </div>
             </div>

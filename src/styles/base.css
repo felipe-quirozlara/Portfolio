@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+/* Componentes */
+hr {
+   
+    background-color:black;
+    height: 1px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: #E5E5E5;
+    padding: 1% 2% 1%;
+    border-radius: 8px;
+    margin: 1% 0% 1%;
+    border-style: solid;
+    border-width: 1px;
+}
+textarea{
+    background-color: #E5E5E5;
+    padding: 1% 2% 1%;
+    border-radius: 8px;
+    margin: 1% 0% 1%;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+label{
+    font-size: 26px;
+}
+
+.formulario{
+    width: 80%;
+    box-sizing:border-box;
+    padding: 2% 2% 5%;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo{
+    font-size: 65px;
+}
+
+.icono{
+    width: 65px;
+    height: auto;
+    padding-right: 5px;
+}
+.parr{
+    font-size: 24px;
+}
+#cv{
+    padding-top: 30px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 15px 45px;
+    background-color: #1E6091;
+    color: white;
+    border-radius: 5px;
+
+}
+.button:hover{
+    background-color:#318cd1;
+}
+
+.card{
+    max-width: 90%;
+    text-align: center;
+    background-color: #AEE1FF;
+    border-radius: 5px;
+    padding: 30px 15px 30px;
+    margin: 2%;
+}
+.card > h2{
+    font-size: 48px;
+}
+
+.thum{
+    width: 100px;
+    height: auto;
+}
+
+.li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    
+    background-color: #1E6091;
+    color: white;
+    height: 60px;
+    margin: 0%;
+}
+.desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.home{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+.link{
+    color: #E8E8E4;
+    text-decoration: none;
+}
+.felipe{
+    font-size: x-large;
+    padding-left: 35%;
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    height: 56px;
+    width: auto;
+    display: none;
+    filter: brightness(0) invert(1);
+}
+
+.list {
+    display: none;
+}
+.list li{
+    list-style: none;
+    padding: 3%;
+    font-size: 20px;
+    
+}
+.none{
+    display: none;
+}
+.navbarMobile{
+    background-color: #1E6091;
+    width: 100%;
+    padding: 10%;
+    z-index: 1;
+    display: block;
+    
+}
+
+.close{
+    float: right;
+    height: 30px;
+    width: auto;
+    filter: brightness(0) invert(1);
+}
+.social{
+    height: 45px;
+    width: 45px;
+    
+  }
+
+/* Letras */
+.sub{
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.titu{
+ font-size: 72px;
+ font-weight: 500;
+}
+.parr{
+    font-size: 24px;
+    width: 520px;
+    padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    input{
+        padding: 2% 3% 2%;
+
+    }
+    
+    .desktop {
+        display: none;
+      }
+    .icon{
+        display: block;
+        float: right;
+    }
+    .list{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        padding: 20px 0px;
+
+    }
+    .titulo{
+        font-size: 45px;
+    }
+    
+}
