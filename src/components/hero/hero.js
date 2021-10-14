@@ -2,6 +2,7 @@ import React from 'react'
 import github from '../icons/github.svg'
 import linkedin from '../icons/linkedin.svg'
 import gmail from '../icons/gmail.svg'
+import yo from '../../img/yo.jpg'
 
 
 const Hero = () => {
@@ -17,19 +18,19 @@ const Hero = () => {
                     <p className="parr">Programador full stack, enfocado en el desarrollo con tecnologías como <b>React, Django, Node.js</b></p>
                     <div className="row " >
                         <a href="https://github.com/felipe-quirozlara" rel="noreferrer" className="padding3" target="_blank">
-                            <img src={github} className="social"/>
+                            <img alt="" src={github} className="social"/>
                         </a>
                         <a href="https://www.linkedin.com/in/felipe-quiroz-lara" rel="noreferrer" className="padding3" target="_blank">
-                            <img src={linkedin} className="social"/>
+                            <img alt="" src={linkedin} className="social"/>
                         </a>
                         <a href="mailto:felipe.i.quiroz.lara@gmail.com" rel="noreferrer" className="padding3" target="_blank">
-                            <img src={gmail} className="social"/>
+                            <img alt="" src={gmail} className="social"/>
                         </a>
                     </div>
                 </div>
             </div>
             <div className="col">
-                <img src="https://via.placeholder.com/390x550" />
+                <img src={yo} className="imgyo" alt="Imagen de Felipe Quiroz"/>
             </div>
         </div>
     )

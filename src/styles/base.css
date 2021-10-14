@@ -182,6 +182,19 @@ label{
     width: 520px;
     padding-top: 10px;
 }
+.imgyo{
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    /* border-radius: 5%; */
+    padding: 1%;
+    background-color: #1E6091;
+
+}
+.workicon{
+    height: 20rem;
+}
 
 
 @media only screen and (max-width: 768px) {

@@ -35,10 +35,10 @@ const Header = () => {
                 </div>
                 <div className="mobile">
                     
-                    <img src={Hamb} className={icon} onClick={navbarActivate} />
+                    <img alt="" src={Hamb} className={icon} onClick={navbarActivate} />
                     <div className="list" >
                         <ul className={nav}>
-                            <img src={close} className="close" onClick={(e)=>{setNav("none");setIcon("icon")}} />
+                            <img alt="" src={close} className="close" onClick={(e)=>{setNav("none");setIcon("icon")}} />
                             <li><a className="link" href="#hero">Inicio</a></li>
                             <li><a className="link" href="#acercademi">Acerca de mi</a></li>
                             <li><a className="link" href="#habilidades">Habilidades</a></li>

@@ -9,7 +9,7 @@ const Trabajos = () => {
     return (
         <div className="container col" id="mistrabajos">
             <div className="row center">
-                <img src={trabajo} className="icono"/>
+                <img src={trabajo} className="icono" alt=""/>
                 <h1 className="titulo">Mis trabajos</h1>
             </div>
             <div className="col">

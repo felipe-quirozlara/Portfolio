@@ -45,7 +45,7 @@ const Contacto = () => {
     return (
         <div className="container col" data-aos="fade-up" id="contacto">
             <div className="row center">
-                <img src={contacto} className="icono"/>
+                <img src={contacto} className="icono" alt=""/>
                 <h1 className="titulo">Contacto</h1>
             </div>
             <div className="col">

@@ -12,7 +12,7 @@ const Tarjeta = (props) => {
                 <p>{resumen}</p>
             </div>
             <div className="col">
-                <img src={imagen} />
+                <img alt="" src={imagen} />
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import brain from '../icons/brain.svg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import cv from '../../data/docume.pdf';
+import work from '../icons/work.svg'
 
 const AcercaDeMi = () => {
 
@@ -16,10 +17,13 @@ const AcercaDeMi = () => {
 
     return (
         <div className="container reverse"  id="acercademi">
+            <div className="col" data-aos="fade-left">
+                <img src={work} alt="Iconografía de persona trabajando" className="workicon" />
+            </div>
             <div className="col" data-aos="fade-up">
                 <div className="pad">
                     <div className="row">
-                        <img src={brain} className="icono"/>
+                        <img src={brain} className="icono" alt=""/>
                         <h1 className="titulo">Acerca de mi</h1>
                     </div>
                     <p className="parr">
@@ -30,9 +34,7 @@ const AcercaDeMi = () => {
                     </div>
                 </div>
             </div>
-            <div className="col" data-aos="fade-left">
-                <img src="https://via.placeholder.com/450x450" />
-            </div>
+            
         </div>
     )
 }
